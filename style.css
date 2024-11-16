@@ -1,0 +1,41 @@
+/* Universal styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* header style */
+header {
+    background-color: #2B3844;
+    padding: 25px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    display: block;
+    transform: scale(1.1);
+}
